@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tilak Ranjan Dhali</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        header .subtitle {
+            font-size: 16px;
+            color: #777;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        nav ul li {
+            margin: 10px 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 18px;
+        }
+
+        .social-icons {
+            margin: 10px 0;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .social-icons img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TILAK RANJAN DHALI</h1>
+        <div class="subtitle">  P H O T O G R A P H E R</div>
+        <nav>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="#">
+                <img src="images/email-icon.png" alt="Email Icon">
+            </a>
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+            <a href="#">Phone</a>
+        </div>
+    </header>
+    <main>
+        <div class="grid">
+            <img src="images/photo1.jpg" alt="Watermelon drink">
+            <img src="images/photo2.jpg" alt="Luxury pen">
+            <img src="images/photo3.jpg" alt="Noodle bowl">
+            <img src="images/photo4.jpg" alt="Gin and glass">
+            <img src="images/photo5.jpg" alt="Coffee cup">
+            <img src="images/photo6.jpg" alt="Food platter">
+            <img src="images/photo7.jpg" alt="Earphones">
+            <img src="images/photo8.jpg" alt="Cosmetic jar">
+            <img src="images/photo9.jpg" alt="Muffins tray">
+            <img src="images/photo10.jpg" alt="Blue beer bottle">
+        </div>
+    </main>
+</body>
+</html>
